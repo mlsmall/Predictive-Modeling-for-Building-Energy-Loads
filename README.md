@@ -901,7 +901,7 @@ predictions = model.predict(X_test)
 
 ### Visualizing the Results
 
-Now we'll plot a graph to show how close where our predicted values to the actual values in the test set.  The predicted values where determined by the model above ("predictions"), and the actual values are the energy loads from the test set (y_test).
+Now we'll plot a graph to show how close we are to our predicted values to the actual values in the test set.  The predicted values were determined by the model above ("predictions"), and the actual values are the energy loads from the test set (y_test).
 
 
 ```python
